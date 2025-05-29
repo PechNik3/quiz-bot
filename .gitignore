@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+venv/
+env/
+.idea/
+.vscode/
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
