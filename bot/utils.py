@@ -12,6 +12,6 @@ def load_stats():
 
 
 def save_stats(stats):
-    os.makedirs(os.path.dirname(STATS_PATH), exist_ok=True)  # ⬅️ добавлено
+    os.makedirs(os.path.dirname(STATS_PATH), exist_ok=True)
     with open(STATS_PATH, 'w') as f:
         json.dump(stats, f, indent=2)
